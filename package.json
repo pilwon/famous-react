@@ -1,4 +1,5 @@
 {
+  "name": "react-famous",
   "private": true,
   "dependencies": {
     "babel": "^4.7.3",
