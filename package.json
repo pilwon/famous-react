@@ -1,5 +1,6 @@
 {
   "name": "react-famous",
+  "version": "0.1.7",
   "private": true,
   "dependencies": {
     "babel": "^4.7.3",
