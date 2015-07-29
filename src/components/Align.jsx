@@ -1,4 +1,5 @@
 import FamousAlign from 'famous/components/Align';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

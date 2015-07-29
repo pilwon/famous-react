@@ -1,5 +1,6 @@
 import FamousColor from 'famous/utilities/Color';
 import FamousPointLight from 'famous/webgl-renderables/lights/PointLight';
+import React from 'react';
 
 import FamousComponent from '../../lib/FamousComponent';
 

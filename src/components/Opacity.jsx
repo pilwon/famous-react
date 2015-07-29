@@ -1,4 +1,5 @@
 import FamousOpacity from 'famous/components/Opacity';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

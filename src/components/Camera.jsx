@@ -1,4 +1,5 @@
 import FamousCamera from 'famous/components/Camera';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

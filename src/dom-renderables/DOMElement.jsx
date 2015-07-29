@@ -2,6 +2,7 @@ import FamousEngine from 'famous/core/FamousEngine';
 import FamousDOMElement from 'famous/dom-renderables/DOMElement';
 import isEqual from 'lodash/lang/isEqual';
 import isUndefined from 'lodash/lang/isUndefined';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 import FamousContextWrapper from '../lib/FamousContextWrapper';

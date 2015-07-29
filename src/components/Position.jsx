@@ -1,4 +1,5 @@
 import FamousPosition from 'famous/components/Position';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

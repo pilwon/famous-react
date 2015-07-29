@@ -1,4 +1,5 @@
 import FamousScale from 'famous/components/Scale';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

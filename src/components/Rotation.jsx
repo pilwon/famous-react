@@ -1,4 +1,5 @@
 import FamousRotation from 'famous/components/Rotation';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

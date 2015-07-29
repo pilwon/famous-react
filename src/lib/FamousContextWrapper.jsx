@@ -1,4 +1,5 @@
 import FamousUtil from './FamousUtil';
+import React from 'react';
 
 class FamousContextWrapper extends React.Component {
   getChildContext() {
