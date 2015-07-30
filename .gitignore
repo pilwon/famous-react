@@ -5,3 +5,7 @@ docs
 
 /*.js
 /*.js.map
+/components
+/dom-renderables
+/lib
+/webgl-renderables
