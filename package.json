@@ -5,7 +5,7 @@
   "homepage": "https://github.com/pilwon/react-famous",
   "author": "Pilwon Huh <pilwon@gmail.com>",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "pilwon/react-famous"
