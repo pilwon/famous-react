@@ -24,7 +24,7 @@
     "build-global": "echo 'TODO: Global build' && exit 1"
   },
   "dependencies": {
-    "famous": "git+https://github.com/trusktr/engine.git#joe",
+    "famous": "git+https://github.com/infamous/engine.git#webpack",
     "react": "^0.13.1"
   },
   "devDependencies": {
