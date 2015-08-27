@@ -42,7 +42,7 @@ class Node extends React.Component {
   }
 
   famousDelete() {
-    this._famousParentNode.removeChild(this._famousNode);
+    this._famousNode.getParent().removeChild(this._famousNode);
     this._famousNode = null;
   }
 
