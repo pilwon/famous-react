@@ -7,6 +7,8 @@ import lib from './lib';
 import Node from './Node';
 import Scene from './Scene';
 
+import famous from 'famous'
+
 let globalRef = this // whatever `this` is if there's no browser or node.js
 if (window) globalRef = window // browser
 else if (global) globalRef = global // node.js
@@ -21,3 +23,5 @@ globalRef.reactFamous = {
   Node,
   Scene,
 }
+
+globalRef.famous = famous
