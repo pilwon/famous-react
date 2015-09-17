@@ -15,13 +15,13 @@
   },
   "scripts": {
     "test": "echo 'TODO: Test script' && exit 1",
-    "clean": "mv webpack.config.js webpack.config.save && rm -rf ./*.js ./*.js.map components dom-renderables lib webgl-renderables && mv webpack.config.save webpack.config.js",
+    "clean": "mkdir save && mv webpack.config.js save && rm -rf ./*.js ./*.js.map components dom-renderables lib webgl-renderables && mv save/* . && rmdir save",
     "prepublish": "npm run build-cjs",
     "postpublish": "npm run clean",
     "build-umd": "babel src --source-maps --out-dir . --modules umd",
     "build-cjs": "babel src --source-maps --out-dir . --modules common",
     "build-amd": "babel src --source-maps --out-dir . --modules amd",
-    "build-global": "webpack --progress --colors src/global.js react-famous.js"
+    "build-global": "webpack --progress --colors --output-library-target umd --output-library reactFamous src/index.js react-famous.js"
   },
   "dependencies": {
     "infamous-engine": "^0.7.1-webpack.0",
