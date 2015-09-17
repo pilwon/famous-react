@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "echo 'TODO: Test script' && exit 1",
-    "clean": "rm -rf ./*.js ./*.js.map components dom-renderables lib webgl-renderables",
+    "clean": "mv webpack.config.js webpack.config.save && rm -rf ./*.js ./*.js.map components dom-renderables lib webgl-renderables && mv webpack.config.save webpack.config.js",
     "prepublish": "npm run build-cjs",
     "postpublish": "npm run clean",
     "build-umd": "babel src --source-maps --out-dir . --modules umd",
