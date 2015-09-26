@@ -1,4 +1,5 @@
 import FamousOrigin from 'famous/components/Origin';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

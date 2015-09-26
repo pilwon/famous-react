@@ -1,4 +1,5 @@
 import isEqual from 'lodash/lang/isEqual';
+import React from 'react';
 
 import FamousUtil from './lib/FamousUtil';
 

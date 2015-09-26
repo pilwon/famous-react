@@ -1,4 +1,5 @@
 import FamousMountPoint from 'famous/components/MountPoint';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

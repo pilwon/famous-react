@@ -1,4 +1,5 @@
 import FamousTransform from 'famous/components/Transform';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

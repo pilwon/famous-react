@@ -1,3 +1,11 @@
-/dist/
-/node_modules/
-/npm-debug.log
+node_modules
+npm-debug.log
+
+docs
+
+/*.js
+/*.js.map
+/components
+/dom-renderables
+/lib
+/webgl-renderables

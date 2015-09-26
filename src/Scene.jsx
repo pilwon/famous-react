@@ -2,6 +2,7 @@ import FamousEngine from 'famous/core/FamousEngine';
 import isEqual from 'lodash/lang/isEqual';
 import merge from 'lodash/object/merge';
 import uniqueId from 'lodash/utility/uniqueId';
+import React from 'react';
 
 import FamousUtil from './lib/FamousUtil';
 

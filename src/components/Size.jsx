@@ -1,4 +1,5 @@
 import FamousSize from 'famous/components/Size';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 

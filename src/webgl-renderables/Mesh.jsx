@@ -1,6 +1,7 @@
 import FamousColor from 'famous/utilities/Color';
 import FamousGeometry from 'famous/webgl-geometries/Geometry';
 import FamousMesh from 'famous/webgl-renderables/Mesh';
+import React from 'react';
 
 import FamousComponent from '../lib/FamousComponent';
 
